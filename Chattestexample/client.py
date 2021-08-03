@@ -35,7 +35,7 @@ def receving(name, sock):
 host = socket.gethostbyname(socket.gethostname())
 port = 0 
 
-server = (input('Введите свой ip: '),9090) # пользователь должен ввести свой ip для работы приложения
+server = (socket.gethostbyname(socket.gethostname()),9090) # пользователь должен ввести свой ip для работы приложения
 
 s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM) # сокеты, TCP
 s.bind((host,port))
