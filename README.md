@@ -1,3 +1,3 @@
 # chatexample
  ### chat for test example
- ### using socket
+ ### using socket server
