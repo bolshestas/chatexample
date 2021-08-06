@@ -1,3 +1,3 @@
 # chatexample
  chat for test example
- using socket
+ '\n' using socket
